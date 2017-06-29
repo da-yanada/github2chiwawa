@@ -46,7 +46,7 @@ exports.handler = function (event, context) {
 
   for (var i = 1; i < config.allow_notify_list.length; i++) {
     if (msg.repository.full_name == config.allow_notify_list[i]) {
-      notify_flag++;
+      notify_flag = 1;
     }
   }
   if (notify_flag == 0) {
