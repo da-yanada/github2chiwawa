@@ -1,0 +1,16 @@
+{
+  "data": {
+    "PROTCOL": "https://",
+    "chiwawa_domain": "chiwawa.one",
+    "chiwawa_conpany_id": "*****************",
+    "chiwawa_message_endpoint": "/api/public/v1/groups/",
+    "yanadabot_user_id": "*****************",
+    "chiwawa_api_token": "*****************************",
+    "chiwawa_group_id": "**************"
+  },
+  "allow_notify_list": [
+    "以下に通知を出したいリポジトリを設定(ユーザー名/リポジトリ名)",
+    "da-yanada/github2chiwawa"
+    "da-yanada/1"
+  ]
+}
