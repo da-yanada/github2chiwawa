@@ -131,7 +131,7 @@ exports.handler = function (event, context) {
       title += eventName + "の通知は現在実装中です";
   }
 
-  // チワワへPOSTリクエスト
+  // 知話輪へPOSTリクエスト
   request({
     url: chiwawa_url,
     method: 'POST',
