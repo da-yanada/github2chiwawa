@@ -13,7 +13,7 @@
     "以下に通知を出したいリポジトリを設定(ユーザー名/リポジトリ名)",
     "da-yanada/1"
   ],
-  "eventlist": "issues,issue_comment,pull_request_review_comment,push,pull_request",
+  "eventlist": "issues,issue_comment,pull_request_review_comment,push,pull_request,delete　など",
   "allow_notify_event_list": [
     "以下に通知を出したいイベントを設定(上記の一覧を参照。詳しくはgithub-apiのページへ)",
     "issues",
