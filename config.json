@@ -2,15 +2,31 @@
   "data": {
     "PROTCOL": "https://",
     "chiwawa_domain": "chiwawa.one",
-    "chiwawa_conpany_id": "*****************",
+    "chiwawa_conpany_id": "******",
     "chiwawa_message_endpoint": "/api/public/v1/groups/",
-    "yanadabot_user_id": "*****************",
-    "chiwawa_api_token": "*****************************",
-    "chiwawa_group_id": "**************"
+    "commentout" : "以下3つを変更",
+    "chiwawa_api_token": "******",
+    "chiwawa_group_id": "******",
+    "chiwawa_user_id": "******"
   },
-  "allow_notify_list": [
+  "allow_notify_Repo_list": [
     "以下に通知を出したいリポジトリを設定(ユーザー名/リポジトリ名)",
-    "da-yanada/github2chiwawa"
     "da-yanada/1"
+  ],
+  "eventlist": "issues,issue_comment,pull_request_review_comment,push,pull_request",
+  "allow_notify_event_list": [
+    "以下に通知を出したいイベントを設定(上記の一覧を参照。詳しくはgithub-apiのページへ)",
+    "issues",
+    "pull_request",
+    "issue_comment",
+    "pull_request_review_comment",
+    "push",
+    "delete"
+  ],
+  "toall_list": [
+    "以下に@all:をつけて通知したいイベントを設定(上記の一覧を参照)",
+    "issues",
+    "pull_request",
+    "push"
   ]
 }
