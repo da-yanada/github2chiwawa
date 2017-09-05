@@ -68,7 +68,7 @@ function comment_text(msg, data) {
 }
 
 // issuesの時のデータの整形
-function issues_text(msg, title) {
+function issues_text(msg, data) {
     const issue_title = "#" + msg.issue.number + " " + msg.issue.title;
     if (msg.action == 'opened') {
         data.title += 'Issue created by ' + msg.sender.login;
